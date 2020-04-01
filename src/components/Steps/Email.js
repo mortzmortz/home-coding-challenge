@@ -7,7 +7,7 @@ import useStep from './use-step';
 const Email = () => {
   const { values } = useFormState();
   const handleSubmit = useStep({
-    step: 1,
+    step: 2,
     name: 'email',
     nextUrl: '/phone',
   });
